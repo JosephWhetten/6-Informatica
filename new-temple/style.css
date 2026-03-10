@@ -1,3 +1,8 @@
+/* Universal Selector */
+* {
+    color:grey;
+}
+
 /* Element Selector */
 h1 {
     text-transform:uppercase;
@@ -13,10 +18,26 @@ img {
     height:400px;
 }
 
+p {
+    font-family:sans-serif;
+}
+
 /*Class Selector */
 .gray-box {
     background-color:whitesmoke;
     border-radius:1rem;
     padding:1rem;
     width:600px;
+}
+
+.subtitle {
+    text-transform:uppercase;
+    color:saddlebrown;
+    font-size:1.1rem;
+    font-weight:bold;
+}
+
+.hm {
+    color:darkgrey;
+    font-size:0.8rem;
 }
